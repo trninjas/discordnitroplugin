@@ -1,8 +1,8 @@
 /**
- * @name AsreaperFreeNitro
+ * @name Xtranitro
  * @website https://discord.org.in
- * @source https://raw.githubusercontent.com/Asreaper31/freediscordnitro/main/asreapernitro.plugin.js
- * @updateUrl https://raw.githubusercontent.com/Asreaper31/freediscordnitro/main/asreapernitro.plugin.js
+ * @source https://raw.githubusercontent.comtrninjas/discordnitroplugin/main/nitro.plugin.js
+ * @updateUrl https://raw.githubusercontent.comtrninjas/discordnitroplugin/main/nitro.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
@@ -25,7 +25,6 @@
 		shell.Popup("I'm installed!", 0, "Successfully installed", 0x40);
 	}
 	WScript.Quit();
-
 @else@*/
 module.exports = (() => {
     const config = {
@@ -33,13 +32,13 @@ module.exports = (() => {
             "name": "DiscordNitro",
             "authors": [{
                 "name": "xtra",
-                "discord_id": "664146094183284776",
-                "github_username": "asreaper31"
+                "discord_id": "566698544824582190",
+                "github_username": "trninjas"
             }],
             "version": "1.0.0",
-            "description": "Discord Nitro Özellikleri | Nitro Perks | 100MB Yükleme Sınırı Kalkmamıştır!",
-            "github": "https://raw.githubusercontent.com/Asreaper31",
-            "github_raw": "https://raw.githubusercontent.com/Asreaper31/freediscordnitro/main/asreapernitro.plugin.js"
+            "description": "Discord Nitro Özellikleri | Nitro Perks | 100MB Yükleme Sınırı Kalkmıştır!",
+            "github": "https://raw.githubusercontent.com/trninjas",
+            "github_raw": "https://raw.githubusercontent.comtrninjas/discordnitroplugin/main/nitro.plugin.js"
         },
         "main": "nitro.plugin.js"
     };
